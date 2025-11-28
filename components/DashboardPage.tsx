@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import { LayoutGrid, PieChart, FileText, Bell, Settings, Search, Plus, Filter, MoreHorizontal, ArrowUpRight, Clock, CheckCircle2, AlertCircle, Building2, Download, Zap, TrendingUp, ChevronRight, FolderOpen, ArrowRight } from 'lucide-react';
 import { Project } from '../types';
