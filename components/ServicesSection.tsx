@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Globe2, Rocket, Briefcase, BarChart3, ArrowRight, Layers, Fingerprint, Database, Cpu, Lock, Workflow, ArrowDownToLine, PlaneTakeoff, RefreshCcw } from 'lucide-react';
 import { Page } from '../types';
@@ -67,7 +66,6 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({ language, inve
   const current = content[investmentMode];
   const isFDI = investmentMode === 'FDI';
   const themeColor = isFDI ? 'brand' : 'emerald';
-  const ThemeIcon = isFDI ? ArrowDownToLine : PlaneTakeoff;
 
   return (
     <section id="services" className="py-24 bg-slate-950 border-t border-slate-900 transition-colors duration-1000">
