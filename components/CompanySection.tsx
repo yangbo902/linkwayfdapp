@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from 'react';
 import { Linkedin, Mail, ArrowUpRight, History, Target, Award, Users, Building2, ArrowRight, X, ArrowRightLeft, CheckCircle2, AlertTriangle, Lightbulb, Loader2, ArrowDownToLine, PlaneTakeoff, Landmark, Quote, ExternalLink, ShieldCheck, Globe, Zap } from 'lucide-react';
 import { TeamMember } from '../types';
