@@ -1,6 +1,5 @@
-
 import React, { useState } from 'react';
-import { ArrowLeft, Globe2, ArrowDownToLine, PlaneTakeoff, ShieldCheck, Building2, Gavel, Users, Zap, Search, ChevronRight, LayoutGrid, FileText, CheckCircle2, LineChart, Milestone, Lock, FolderOpen, Bell, Menu, ArrowRight, Download, FileCheck, AlertCircle, Clock, Landmark, Scale, Briefcase, File, BarChart, Server, Network, Handshake, Target, Layers, Boxes } from 'lucide-react';
+import { ArrowLeft, Globe2, ArrowDownToLine, PlaneTakeoff, ShieldCheck, Building2, Gavel, Users, Zap, Search, ChevronRight, LayoutGrid, FileText, CheckCircle2, LineChart, Milestone, Lock, FolderOpen, Bell, Menu, ArrowRight, Download, FileCheck, AlertCircle, Clock, Landmark, Scale, Briefcase, File, BarChart, Server, Network, Target, Layers, Boxes } from 'lucide-react';
 import { Page } from '../types';
 
 interface ServicesPageProps {
@@ -52,7 +51,7 @@ export const ServicesPage: React.FC<ServicesPageProps> = ({ language, onNavigate
     {
       id: 2,
       title: "Transaction",
-      icon: Handshake,
+      icon: Briefcase,
       items: ["Financial Due Diligence", "Legal Structuring", "SPA Negotiation"]
     },
     {
