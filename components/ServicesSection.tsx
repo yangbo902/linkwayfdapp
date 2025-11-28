@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { Globe2, Rocket, Handshake, BarChart3, ArrowRight, Layers, Fingerprint, Database, Cpu, Lock, Workflow, ArrowDownToLine, PlaneTakeoff, RefreshCcw } from 'lucide-react';
+import { Globe2, Rocket, Briefcase, BarChart3, ArrowRight, Layers, Fingerprint, Database, Cpu, Lock, Workflow, ArrowDownToLine, PlaneTakeoff, RefreshCcw } from 'lucide-react';
 import { Page } from '../types';
 
 interface ServicesSectionProps {
